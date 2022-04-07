@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Radar Chart</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <canvas
+      baseChart
+      type="radar"
+      width="500"
+      height="200"
+      [datasets]="radarChartData"
+      [labels]="radarChartLabels"
+      (chartHover)="chartHovered($event)"
+      (chartClick)="chartClicked($event)"
+    ></canvas>
+  </mat-card-content>
+</mat-card>
