@@ -14,6 +14,6 @@ export class MigrationManagementComponent implements OnInit {
   }
   setTab(tabname: string) {
     console.log(tabname);
-    this.router.navigateByUrl('/projects/migration-mgmt/'+tabname);
+    this.router.navigateByUrl('/migration-mgmt/'+tabname);
   }
 }

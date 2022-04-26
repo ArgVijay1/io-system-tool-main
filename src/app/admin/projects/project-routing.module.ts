@@ -27,7 +27,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes),UserModule],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
 export class ProjectRoutingModule {}

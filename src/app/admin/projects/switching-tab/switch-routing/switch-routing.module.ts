@@ -6,15 +6,9 @@ import { ParameterListComponent } from '../parameter-list/parameter-list.compone
 import { ParameterMigrationListComponent } from '../parameter-migration-list/parameter-migration-list.component';
 
 const routes:Routes=[
-    {
-      path: 'migration-mgmt',
-      component: MigrationManagementComponent,
-      children: [
+        {path:'',component:MigrationManagementComponent},
         {path:'param-list',component:ParameterListComponent},
-        {path:'param-mgr-list',component:ParameterMigrationListComponent}
-      ],
-    },
-    
+        {path:'param-mgr-list',component:ParameterMigrationListComponent} 
 ]
 
 

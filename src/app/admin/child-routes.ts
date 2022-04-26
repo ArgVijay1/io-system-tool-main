@@ -58,12 +58,20 @@ export const childRoutes = [
       ),
     data: { icon: 'assignment', text: 'Projects' }
   },
-  /*{
-    path: 'switch-tab',
+  {
+    path: 'migration-mgmt',
     loadChildren: () =>
-      import('./projects/projects.module').then(
-        m => m.ProjectsModule
+      import('./projects/switching-tab/switch-routing/switch-routing.module').then(
+        m => m.SwitchRoutingModule
       ),
-    data: { icon: 'assignment', text: 'Parameters' }
-  } */ 
+    data: { icon: 'assignment', text: 'Migration Mgmt' }
+  },
+  {
+    path: 'user-mgmt',
+    loadChildren: () =>
+      import('./projects/user/user/user-routing.module').then(
+        m => m.UserRoutingModule
+      ),
+    data: { icon: 'assignment', text: 'User Mgmt' }
+  } 
 ];

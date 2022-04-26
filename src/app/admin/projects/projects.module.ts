@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule, NgModel, ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
@@ -24,13 +24,7 @@ import { ParameterListComponent } from './switching-tab/parameter-list/parameter
 import { ParameterMigrationListComponent } from './switching-tab/parameter-migration-list/parameter-migration-list.component';
 import {MatTabsModule} from '@angular/material/tabs'; 
 import { MatButtonModule } from '@angular/material/button';
-import { SwitchRoutingModule } from './switching-tab/switch-routing/switch-routing.module';
 import { LegacySystemComponent } from './legacy-system/legacy-system.component';
-import { UserComponent } from './user/user.component';
-import { UserManagementComponent } from './user/user-management/user-management.component';
-import { CreateUserComponent } from './user/create-user/create-user.component';
-import { EditUserComponent } from './user/edit-user/edit-user.component';
-import { DeleteUserComponent } from './user/delete-user/delete-user.component';
 
 @NgModule({
   declarations: [
@@ -40,15 +34,10 @@ import { DeleteUserComponent } from './user/delete-user/delete-user.component';
     ProjectEditComponent,
     ProjectDeleteComponent,
     TableStickyHeaderExampleComponent,
-    MigrationManagementComponent,
     ParameterListComponent,
     ParameterMigrationListComponent,
     LegacySystemComponent,
-    UserComponent,
-    UserManagementComponent,
-    CreateUserComponent,
-    EditUserComponent,
-    DeleteUserComponent,
+    MigrationManagementComponent
     ],
   imports: [
     ReactiveFormsModule,
@@ -74,7 +63,6 @@ import { DeleteUserComponent } from './user/delete-user/delete-user.component';
     MatSortModule,
     MatInputModule,
     MatCardModule,
-    SwitchRoutingModule,
   ],
   providers:[
     DataService
