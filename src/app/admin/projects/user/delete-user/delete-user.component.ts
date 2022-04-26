@@ -4,7 +4,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 @Component({
   selector: 'app-delete-user',
   templateUrl: './delete-user.component.html',
-  styleUrls: ['./delete-user.component.scss']
+  styleUrls: ['./delete-user.component.css']
 })
 export class DeleteUserComponent implements OnInit {
   message: string = "Are you sure?"
@@ -25,7 +25,6 @@ export class DeleteUserComponent implements OnInit {
    onConfirmClick():void{
      this.dialogRef.close(true);
    }
-
   ngOnInit(): void {
   }
 

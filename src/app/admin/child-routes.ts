@@ -69,9 +69,10 @@ export const childRoutes = [
   {
     path: 'user-mgmt',
     loadChildren: () =>
-      import('./projects/user/user/user-routing.module').then(
-        m => m.UserRoutingModule
+      import('./projects/user/user.module').then(
+        m => m.UserModule
       ),
-    data: { icon: 'assignment', text: 'User Mgmt' }
-  } 
+    data: { icon: 'place', text: 'User Mgmt' }
+  },
+
 ];

@@ -1,41 +1,39 @@
+<h3>Edit App Details</h3>
 <div class="create-dialog">
-    <div class="container">
-      <form [formGroup]="userForm">
-        <p>Edit User</p>
-        <h1 mat-dialog-title></h1>
-        <div mat-dialog-content>
-          <p>Edit User Details</p>
-          <p>
-            <mat-form-field>
-            <input matInput  formControlName="User"  placeholder="Project Title">
-          </mat-form-field>
-          </p>
-          
-          <p>
-          <mat-form-field>
-            <input matInput placeholder="Email" >
-          </mat-form-field>
-          </p>
-          
-          <p>
-          <mat-form-field>
-            <input matInput placeholder="Phone No" >
-          </mat-form-field>
-          </p>
-          
-          <p>
-          <mat-form-field>
-            <input matInput  placeholder="Role">
-          </mat-form-field>
-          </p>
-          
-                  
-        </div>
+  <div class="container">
+    <mat-card-content class="">
+      <p>
+        <mat-form-field appearance="standard">
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="Name">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="Email">
+          <mat-label>Email</mat-label>
+          <input matInput placeholder="Email">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="standard">
+          <mat-label>Phone</mat-label>
+          <input matInput placeholder="Phone">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="standard">
+          <mat-label>Role</mat-label>
+          <input matInput placeholder="Role">
+        </mat-form-field>
+      </p>
+  
+    
         <div mat-dialog-actions>
           <button mat-button (click)="onNoClick()">No Thanks</button>
           <button mat-button cdkFocusInitial>Ok</button>
         </div>
-        </form>
-    </div>
-    
-    </div>
+      
+    </mat-card-content>
+  </div>
+  
+</div>

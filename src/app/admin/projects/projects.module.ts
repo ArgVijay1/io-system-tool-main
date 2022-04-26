@@ -16,15 +16,15 @@ import { ProjectEditComponent } from './project-edit/project-edit.component';
 import { ProjectDeleteComponent } from './project-delete/project-delete.component';
 import { MatIconModule } from '@angular/material/icon';
 import { DataService } from './project-list/data.service';
-import {MatCardModule} from '@angular/material/card';
 import { TableStickyHeaderExampleComponent } from './table-sticky-header-example/table-sticky-header-example.component'; 
 import { MatMenuModule } from '@angular/material/menu';
 import { MigrationManagementComponent } from './switching-tab/migration-management/migration-management.component';
 import { ParameterListComponent } from './switching-tab/parameter-list/parameter-list.component';
 import { ParameterMigrationListComponent } from './switching-tab/parameter-migration-list/parameter-migration-list.component';
-import {MatTabsModule} from '@angular/material/tabs'; 
-import { MatButtonModule } from '@angular/material/button';
 import { LegacySystemComponent } from './legacy-system/legacy-system.component';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -37,11 +37,13 @@ import { LegacySystemComponent } from './legacy-system/legacy-system.component';
     ParameterListComponent,
     ParameterMigrationListComponent,
     LegacySystemComponent,
-    MigrationManagementComponent
-    ],
+    MigrationManagementComponent,
+  ],
   imports: [
     ReactiveFormsModule,
     FormsModule,
+    CommonModule,
+    ProjectRoutingModule,
     MatIconModule,
     MatDialogModule,
     MatTableModule,
@@ -50,23 +52,13 @@ import { LegacySystemComponent } from './legacy-system/legacy-system.component';
     MatSortModule,
     MatInputModule,
     MatCheckboxModule,
-    CommonModule,
-    ProjectRoutingModule,
     MatTabsModule,
     MatButtonModule,
-
-
     MatMenuModule,
-    MatTableModule,
-    MatFormFieldModule,
-    MatPaginatorModule,
-    MatSortModule,
-    MatInputModule,
     MatCardModule,
   ],
   providers:[
     DataService
     ]
-
 })
 export class ProjectsModule { }
