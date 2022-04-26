@@ -1,0 +1,41 @@
+<div class="create-dialog">
+    <div class="container">
+      <form [formGroup]="userForm">
+        <p>Create User</p>
+        <h1 mat-dialog-title></h1>
+        <div mat-dialog-content>
+          <p>Enter User Details</p>
+          <p>
+            <mat-form-field>
+            <input matInput  formControlName="User"  placeholder="Project Title">
+          </mat-form-field>
+          </p>
+          
+          <p>
+          <mat-form-field>
+            <input matInput placeholder="Email" >
+          </mat-form-field>
+          </p>
+          
+          <p>
+          <mat-form-field>
+            <input matInput placeholder="Phone No" >
+          </mat-form-field>
+          </p>
+          
+          <p>
+          <mat-form-field>
+            <input matInput  placeholder="Role">
+          </mat-form-field>
+          </p>
+          
+                  
+        </div>
+        <div mat-dialog-actions>
+          <button mat-button (click)="onNoClick()">No Thanks</button>
+          <button mat-button cdkFocusInitial>Ok</button>
+        </div>
+        </form>
+    </div>
+    
+    </div>

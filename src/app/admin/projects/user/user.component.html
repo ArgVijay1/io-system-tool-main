@@ -1,0 +1,11 @@
+<p>User  Management</p>
+<button class="right" mat-raised-button color="primary" (click)="openDialog()" >Invite User</button>
+
+<!--div class="tab">
+    <mat-tab-group mat-align-tabs="start">
+        <mat-tab label="User Management" (click)="setTab('tab1')"><app-user-management></app-user-management></mat-tab>       
+      </mat-tab-group>
+</div-->
+<h3>User Management</h3>
+<app-user-management></app-user-management>
+<router-outlet></router-outlet>

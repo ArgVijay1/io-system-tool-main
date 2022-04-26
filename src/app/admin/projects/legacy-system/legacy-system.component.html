@@ -1,0 +1,14 @@
+       
+
+<div class="center">
+    <button mat-raised-button (click)="fileInput.click()">Import .eb or .csv files</button>
+    <p>Multipule files can be uploaded</p>
+<input style="display: none"  accept=".csv,.eb"  #attachments type="file" (change)="onFileChanged($event)" #fileInput multiple="true">
+
+<div *ngFor="let selected of listOfFiles;let index = index">
+  <h5>{{selected}}
+<mat-icon (click)="removeSelectedFile(index)">cancel</mat-icon>
+  </h5>
+  <!--button mat-icon-button ></button-->
+</div>
+</div>

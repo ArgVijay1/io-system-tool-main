@@ -1,13 +1,14 @@
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+
 export interface UserData {
   id: string;
   name: string;
   progress: string;
   color: string;
 }
-
-@Injectable()
-export class ProjectDataService {
+@Injectable() 
+export class DataService {
   private readonly colors = [
     'maroon',
     'red',
@@ -46,8 +47,7 @@ export class ProjectDataService {
     'Thomas',
     'Elizabeth'
   ];
-
-  constructor() {}
+  constructor(private httpClient:HttpClient) {}
 
   createNewUser(id: number): UserData {
     const name =
@@ -75,4 +75,6 @@ export class ProjectDataService {
   private getRandomArrayIndex(length: number): number {
     return Math.round(Math.random() * (length - 1));
   }
+  
 }
+

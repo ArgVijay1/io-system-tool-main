@@ -1,0 +1,52 @@
+<h1 mat-dialog-title></h1>
+<form [formGroup]="projectForm">
+<div mat-dialog-content>
+  <p>Please Provide Details</p>
+  <!--button (click)="onEdit()"></button-->
+  <p>
+    <mat-form-field>
+    <input matInput formControlName="title" #title id="title" placeholder="Project Title">
+  </mat-form-field>
+  </p>
+  
+  <p>
+  <mat-form-field>
+    <input matInput placeholder="Description">
+  </mat-form-field>
+  </p>
+  
+  <p>
+  <mat-form-field>
+    <input matInput formControlName="name" #name id="name" placeholder="clientName">
+  </mat-form-field>
+  </p>
+  
+  <p>
+  <mat-form-field>
+    <input matInput  placeholder="client Email">
+  </mat-form-field>
+  </p>
+  
+  <p>
+  <mat-form-field>
+    <input matInput placeholder="Client Contact Person">
+  </mat-form-field>
+  </p>
+
+  <p>
+  <mat-form-field>
+    <input matInput placeholder="Client Contact Name ">
+  </mat-form-field>
+  </p>
+
+  <p>
+  <mat-form-field>
+    <input matInput placeholder="Client Location">
+  </mat-form-field>
+  </p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button cdkFocusInitial>Ok</button>
+</div>
+</form>

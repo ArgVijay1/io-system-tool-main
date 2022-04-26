@@ -1,0 +1,346 @@
+{
+"Legacy to EPKS":[
+ {
+  "Sr. No": 1,
+  "System": "HPM",
+  "Legacy Parameter": "&T",
+  "Description": "Point Type",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "Configured IO Type"
+ },
+ {
+  "Sr. No": 2,
+  "System": "HPM",
+  "Legacy Parameter": "&N",
+  "Description": "Tag Name",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "System Channel Tag\/CM TAG"
+ },
+ {
+  "Sr. No": 3,
+  "System": "HPM",
+  "Legacy Parameter": "NODETYP",
+  "Description": "Node Type",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "New Controller Type"
+ },
+ {
+  "Sr. No": 4,
+  "System": "HPM",
+  "System": "HPM",
+  "Legacy Parameter": "PTDESC",
+  "Description": "Point Description",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Point Description"
+ },
+ {
+  "Sr. No": 5,
+  "System": "HPM",
+  "Legacy Parameter": "EUDESC",
+  "Description": "EU Description",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "EU Description"
+ },
+ {
+  "Sr. No": 6,
+  "System": "HPM",
+  "Legacy Parameter": "KEYWORD",
+  "Description": "KEYWORD",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "KEYWORD"
+ },
+ {
+  "Sr. No": 7,
+  "System": "HPM",
+  "Legacy Parameter": "ASSOCDSP",
+  "Description": "Associate Display",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "New Associate Display"
+ },
+ {
+  "Sr. No": 8,
+  "System": "HPM",
+  "Legacy Parameter": "UNIT",
+  "Description": "UNIT",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "UNIT"
+ },
+ {
+  "Sr. No": 9,
+  "System": "HPM",
+  "Legacy Parameter": "NTWKNUM",
+  "Description": "Network Number",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Network Number"
+ },
+ {
+  "Sr. No": 10,
+  "System": "HPM",
+  "Legacy Parameter": "NODENUM",
+  "Description": "Node Number",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "BPCS Controller"
+ },
+ {
+  "Sr. No": 11,
+  "System": "HPM",
+  "Legacy Parameter": "SLOTNUM",
+  "Description": "Slot Number",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "IOM Channel"
+ },
+ {
+  "Sr. No": 12,
+  "System": "HPM",
+  "Legacy Parameter": "PNTMODTY",
+  "Description": "IO Card Type",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "IOM Type"
+ },
+ {
+  "Sr. No": 13,
+  "System": "HPM",
+  "Legacy Parameter": "PNTFORM",
+  "Description": "COMPONNT",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "COMPONNT"
+ },
+ {
+  "Sr. No": 14,
+  "System": "HPM",
+  "Legacy Parameter": "MODNUM",
+  "Description": "Module Number",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "Card Module"
+ },
+ {
+  "Sr. No": 15,
+  "System": "Hiway Gateway",
+  "Legacy Parameter": "HWYNUM",
+  "Description": "Hiway Number",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Hiway Number"
+ },
+ {
+  "Sr. No": 16,
+  "System": "Hiway Gateway",
+  "Legacy Parameter": "PNTBOXTY",
+  "Description": "Point Box Type",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Point Box Type"
+ },
+ {
+  "Sr. No": 17,
+  "System": "Hiway Gateway",
+  "Legacy Parameter": "BOXNUM",
+  "Description": "Box Number",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Box Number"
+ },
+ {
+  "Sr. No": 18,
+  "System": "Hiway Gateway",
+  "Legacy Parameter": "PTDISCL",
+  "Description": "Point Description",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Point Description"
+ },
+ {
+  "Sr. No": 19,
+  "System": "Hiway Gateway",
+  "Legacy Parameter": "OUTBOXNM",
+  "Description": "Out Box Number",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Out Box Number"
+ },
+ {
+  "Sr. No": 20,
+  "System": "Hiway Gateway",
+  "Legacy Parameter": "SLOTNUM",
+  "Description": "Slot Number",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Slot Number"
+ },
+ {
+  "Sr. No": 21,
+  "System": "PLC",
+  "Legacy Parameter": "Prgm Tag No",
+  "Description": "Program Tag",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "System Channel Tag\/CM TAG"
+ },
+ {
+  "Sr. No": 22,
+  "System": "PLC",
+  "Legacy Parameter": "Instr Tag No",
+  "Description": "Instrument Tag",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "System Channel Tag\/CM TAG"
+ },
+ {
+  "Sr. No": null,
+  "System": "PLC",
+  "Legacy Parameter": "Engg. Unit",
+  "Description": "Engg. Unit",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Engg. Unit"
+ },
+ {
+  "Sr. No": 23,
+  "System": "PLC",
+  "Legacy Parameter": "Service Description",
+  "Description": "Service Description",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Point Description"
+ },
+ {
+  "Sr. No": 24,
+  "System": "PLC",
+  "Legacy Parameter": "IO Type ",
+  "Description": "IO Type",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "IOM Type"
+ },
+ {
+  "Sr. No": 25,
+  "System": "PLC",
+  "Legacy Parameter": "System",
+  "Description": "System",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "System"
+ },
+ {
+  "Sr. No": 27,
+  "System": "PLC",
+  "Legacy Parameter": "Signal Voltage ",
+  "Description": "Signal Voltage ",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "Signal Voltage "
+ },
+ {
+  "Sr. No": 28,
+  "System": "PLC",
+  "Legacy Parameter": "PLC Slot No.",
+  "Description": "Slot Number",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "Card Module"
+ },
+ {
+  "Sr. No": 29,
+  "System": "PLC",
+  "Legacy Parameter": "PLC Channel No.",
+  "Description": "Channel Number",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "IOM Channel"
+ },
+ {
+  "Sr. No": 30,
+  "System": "PLC",
+  "Legacy Parameter": "IO Assign Address ",
+  "Description": "IO Assign Address ",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "IO Assign Address "
+ },
+ {
+  "Sr. No": 31,
+  "System": "PLC",
+  "Legacy Parameter": "IO Card Type",
+  "Description": "IO Card Type",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "Configured IO Type"
+ },
+ {
+  "Sr. No": 33,
+  "System": "PLC",
+  "Legacy Parameter": "PLC Rack No.",
+  "Description": "PLC Rack No.",
+  "Column5": null,
+  "Category": "Existing",
+  "System": "C300",
+  "BPCS Parameter": "PLC Rack No."
+ },
+ {
+  "Sr. No": 34,
+  "System": "PLC",
+  "Legacy Parameter": "Module Density",
+  "Description": "Module Density",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "Module Density "
+ },
+ {
+  "Sr. No": null,
+  "System": "Common",
+  "Legacy Parameter": "Controller Type",
+  "Description": "Controller Type",
+  "Column5": null,
+  "Category": "New-BPCS",
+  "System": "C300",
+  "BPCS Parameter": "Controller Type"
+ }
+],
+
+}

@@ -1,0 +1,21 @@
+<p>Welcome</p>
+<ul class="breadcrumb">
+    <li><a href="/projects">Projects Home</a></li>
+    <li><a routerLink="/projects/migration-mgmt/param-list">Parameter List</a></li>
+    <li><a routerLink="/projects/migration-mgmt/param-mgr-list">Parameter Mapping List</a></li>
+  </ul>
+  <!--button class="right" mat-raised-button color="primary" >Add</button-->
+
+<div class="tab">
+    <mat-tab-group mat-align-tabs="start">
+        <mat-tab label="Parameter List" (click)="setTab('param-list')"><app-parameter-list></app-parameter-list></mat-tab>
+        <mat-tab label="Parameter Mapping List" (click)="setTab('param-mgr-list')">
+          <app-parameter-migration-list></app-parameter-migration-list>
+        </mat-tab>
+      </mat-tab-group>
+
+    <!--button class="tablinks" routerLink="/projects/tab1">Tab 1</button>
+    <button class="tablinks" routerLink="/projects/tab2">Tab 2</button-->
+</div>
+
+<router-outlet></router-outlet>

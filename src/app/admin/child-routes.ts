@@ -57,5 +57,13 @@ export const childRoutes = [
         m => m.ProjectsModule
       ),
     data: { icon: 'assignment', text: 'Projects' }
-  }
+  },
+  /*{
+    path: 'switch-tab',
+    loadChildren: () =>
+      import('./projects/projects.module').then(
+        m => m.ProjectsModule
+      ),
+    data: { icon: 'assignment', text: 'Parameters' }
+  } */ 
 ];

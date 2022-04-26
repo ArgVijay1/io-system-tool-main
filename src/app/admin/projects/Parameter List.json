@@ -1,0 +1,657 @@
+{
+"Legacy":[
+ {
+  "Sr. No": 1,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "&T",
+  "Description": "Point Type",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": "Common"
+ },
+ {
+  "Sr. No": 2,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "&N",
+  "Description": "Tag Name",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": "Common"
+ },
+ {
+  "Sr. No": 3,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "NODETYP",
+  "Description": "Node Type",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": "Common"
+ },
+ {
+  "Sr. No": 4,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "PTDESC",
+  "Description": "Point Description",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": "Common"
+ },
+ {
+  "Sr. No": 5,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "EUDESC",
+  "Description": "EU Description",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": "Common"
+ },
+ {
+  "Sr. No": 6,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "KEYWORD",
+  "Description": "KEYWORD",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": "Common"
+ },
+ {
+  "Sr. No": 7,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "ASSOCDSP",
+  "Description": "Associate Display",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": "Common"
+ },
+ {
+  "Sr. No": 8,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "UNIT",
+  "Description": "UNIT",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": "Common"
+ },
+ {
+  "Sr. No": 9,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "NTWKNUM",
+  "Description": "Network Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 10,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "NODENUM",
+  "Description": "Node Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 11,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "SLOTNUM",
+  "Description": "Slot Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 12,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "PNTMODTY",
+  "Description": "IO Card Type",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 13,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "PNTFORM",
+  "Description": "COMPONNT",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 14,
+  "System": "HPM",
+  "Category": "Existing",
+  "Legacy Parameter": "MODNUM",
+  "Description": "Module Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 15,
+  "System": "Hiway Gateway",
+  "Category": "Existing",
+  "Legacy Parameter": "HWYNUM",
+  "Description": "Hiway Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 16,
+  "System": "Hiway Gateway",
+  "Category": "Existing",
+  "Legacy Parameter": "PNTBOXTY",
+  "Description": "Point Box Type",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 17,
+  "System": "Hiway Gateway",
+  "Category": "Existing",
+  "Legacy Parameter": "BOXNUM",
+  "Description": "Box Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 18,
+  "System": "Hiway Gateway",
+  "Category": "Existing",
+  "Legacy Parameter": "PTDISCL",
+  "Description": "Point Description",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 19,
+  "System": "Hiway Gateway",
+  "Category": "Existing",
+  "Legacy Parameter": "OUTBOXNM",
+  "Description": "Out Box Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 20,
+  "System": "Hiway Gateway",
+  "Category": "Existing",
+  "Legacy Parameter": "SLOTNUM",
+  "Description": "Slot Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 21,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "Prgm Tag No",
+  "Description": "Program Tag",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 22,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "Instr Tag No",
+  "Description": "Instrument Tag",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 23,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "Service Description",
+  "Description": "Service Description",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 24,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "IO Type ",
+  "Description": "IO Type",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 25,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "System",
+  "Description": "System",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 26,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "Interlock Function",
+  "Description": "Interlock Function",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 27,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "Signal Voltage ",
+  "Description": "Signal Voltage ",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 28,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "PLC Slot No.",
+  "Description": "Slot Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 29,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "PLC Channel No.",
+  "Description": "Channel Number",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 30,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "IO Assign Address ",
+  "Description": "IO Assign Address ",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 31,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "IO Card Type",
+  "Description": "IO Card Type",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 32,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "PLC Address",
+  "Description": "PLC Address",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 33,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "PLC Rack No.",
+  "Description": "PLC Rack No.",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 34,
+  "System": "PLC",
+  "Category": "Existing",
+  "Legacy Parameter": "Module Density",
+  "Description": "Module Density",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ },
+ {
+  "Sr. No": 35,
+  "System": "Common",
+  "Category": "Existing",
+  "Legacy Parameter": "Controller Type",
+  "Description": "Controller Type",
+  "FDS Reference ": "Section 4, Table 3",
+  "Column7": null
+ }
+],
+"New IO List Fields":[
+ {
+  "Sr. No": 1,
+  "Category": "Common",
+  "IO List Fields": "Sr. No.",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 2,
+  "Category": "Common",
+  "IO List Fields": "Rev",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 3,
+  "Category": "Common",
+  "IO List Fields": "SPI TAG (Field Tag)",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 4,
+  "Category": "Common",
+  "IO List Fields": "Existing System Tag",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 5,
+  "Category": "Common",
+  "IO List Fields": "System Channel Tag",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 6,
+  "Category": "Common",
+  "IO List Fields": "New CM TAG",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 7,
+  "Category": "Common",
+  "IO List Fields": "FEP",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 8,
+  "Category": "Common",
+  "IO List Fields": "Site",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 9,
+  "Category": "Common",
+  "IO List Fields": "Console",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 10,
+  "Category": "Common",
+  "IO List Fields": "Process Unit \/ Equipment",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 11,
+  "Category": "Existing",
+  "IO List Fields": "IO Type",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 12,
+  "Category": "Existing",
+  "IO List Fields": "Description",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 13,
+  "Category": "Existing",
+  "IO List Fields": "Point Active \/ Inactive",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 14,
+  "Category": "Existing",
+  "IO List Fields": "P&ID",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 15,
+  "Category": "Existing",
+  "IO List Fields": "Existing Unit",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 16,
+  "Category": "Existing",
+  "IO List Fields": "Existing LCN",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 17,
+  "Category": "Existing",
+  "IO List Fields": "Existing Network",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 18,
+  "Category": "Existing",
+  "IO List Fields": "Existing Controller",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 19,
+  "Category": "Existing",
+  "IO List Fields": "Controller Type",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 20,
+  "Category": "Existing",
+  "IO List Fields": "File Number",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 21,
+  "Category": "Existing",
+  "IO List Fields": "IO Card Type",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 22,
+  "Category": "Existing",
+  "IO List Fields": "MODNUM",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 23,
+  "Category": "Existing",
+  "IO List Fields": "SLOTNUM",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 24,
+  "Category": "Existing",
+  "IO List Fields": "Channel",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 25,
+  "Category": "Existing",
+  "IO List Fields": "PLC Address",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 26,
+  "Category": "Existing",
+  "IO List Fields": "PLC Rack No.",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 27,
+  "Category": "Existing",
+  "IO List Fields": "PLC Slot No.",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 28,
+  "Category": "Existing",
+  "IO List Fields": "PLC Channel No.",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 29,
+  "Category": "Existing",
+  "IO List Fields": "Module Density",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 30,
+  "Category": "New-BPCS",
+  "IO List Fields": "BPCS Controller",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 31,
+  "Category": "New-BPCS",
+  "IO List Fields": "IOM Cabinet Name",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 32,
+  "Category": "New-BPCS",
+  "IO List Fields": "IOM Type",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 33,
+  "Category": "New-BPCS",
+  "IO List Fields": "IO Link No",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 34,
+  "Category": "New-BPCS",
+  "IO List Fields": "IOM Name",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 35,
+  "Category": "New-BPCS",
+  "IO List Fields": "IOM No",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 36,
+  "Category": "New-BPCS",
+  "IO List Fields": "Configured Card Address",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 37,
+  "Category": "New-BPCS",
+  "IO List Fields": "Card Module",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 38,
+  "Category": "New-BPCS",
+  "IO List Fields": "Configured IO Type",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 39,
+  "Category": "New-BPCS",
+  "IO List Fields": "Module Density ",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 40,
+  "Category": "New-BPCS",
+  "IO List Fields": "IOM Channel",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 41,
+  "Category": "New-BPCS",
+  "IO List Fields": "Module Name",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 42,
+  "Category": "Cutover",
+  "IO List Fields": "Systemization ID",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 43,
+  "Category": "Cutover",
+  "IO List Fields": "Pre-Outage \/ Outage \/ Post-Outage",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 44,
+  "Category": "Cutover",
+  "IO List Fields": "Cutover Type",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 45,
+  "Category": "Cutover",
+  "IO List Fields": "Cutover Notes",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 46,
+  "Category": "Enng.",
+  "IO List Fields": "Min Engg.",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 47,
+  "Category": "Enng.",
+  "IO List Fields": "Max Engg.",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 48,
+  "Category": "Enng.",
+  "IO List Fields": "Engg. Unit",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 49,
+  "Category": "Enng.",
+  "IO List Fields": "Discrete Alarm State",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 50,
+  "Category": "Enng.",
+  "IO List Fields": "HiHi Alm",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 51,
+  "Category": "Enng.",
+  "IO List Fields": "Hi Alm",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 52,
+  "Category": "Enng.",
+  "IO List Fields": "LoLo Alm",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 53,
+  "Category": "Enng.",
+  "IO List Fields": "Lo Alm",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 54,
+  "Category": "Enng.",
+  "IO List Fields": "Redundancy",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 55,
+  "Category": "Enng.",
+  "IO List Fields": "Voltage Level for DI\/DO Only",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ },
+ {
+  "Sr. No": 56,
+  "Category": "Enng.",
+  "IO List Fields": "Loop Dwg No",
+  "FDS Reference ": "Section 4, Classes and Data Structure"
+ }
+]
+}

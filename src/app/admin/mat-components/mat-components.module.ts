@@ -81,7 +81,8 @@ import { MatTabsModule } from '@angular/material/tabs';
         MatDialogModule,
         MatDatepickerModule,
         MatNativeDateModule,
-        MatTabsModule
+        MatTabsModule,
+        MatCardModule
     ],
     declarations: [
         HomeComponent,
