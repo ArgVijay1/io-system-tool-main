@@ -59,14 +59,6 @@ export const childRoutes = [
     data: { icon: 'assignment', text: 'Projects' }
   },
   {
-    path: 'migration-mgmt',
-    loadChildren: () =>
-      import('./projects/switching-tab/switch-routing/switch-routing.module').then(
-        m => m.SwitchRoutingModule
-      ),
-    data: { icon: 'assignment', text: 'Migration Mgmt' }
-  },
-  {
     path: 'user-mgmt',
     loadChildren: () =>
       import('./projects/user/user.module').then(
