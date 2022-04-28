@@ -1,41 +1,35 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
-import { ViewChild, AfterViewInit } from '@angular/core';
+import { SelectionModel } from '@angular/cdk/collections';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
-import { MatTableDataSource } from '@angular/material/table';
-import { DataService} from './data.service';
-import { SelectionModel } from '@angular/cdk/collections';
-import { MatDialog } from '@angular/material/dialog';
+import { MatTable, MatTableDataSource } from '@angular/material/table';
+import { DataService } from '../../tables/data.service';
 import { ProjectCreateComponent } from '../project-create/project-create.component';
-import {ProjectEditComponent} from '../project-edit/project-edit.component';
-import {ProjectDeleteComponent} from '../project-delete/project-delete.component';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import { ProjectDeleteComponent } from '../project-delete/project-delete.component';
+import { ProjectEditComponent } from '../project-edit/project-edit.component';
 export interface UserData {
   id: string;
   name: string;
   progress: string;
   color: string;
 }
-
 @Component({
-  selector:  'app-project-list',
+  selector: 'app-project-list',
   templateUrl: './project-list.component.html',
   styleUrls: ['./project-list.component.scss']
 })
-export class ProjectListComponent implements OnInit, AfterViewInit {
+export class ProjectListComponent implements OnInit {
   rows:Array<UserData>=[];
   @ViewChild('id') id:ElementRef;
   name:string;
-
   
-
-
   displayedColumns = ['select', 'id', 'name', 'progress', 'color',"action"];
   dataSource: MatTableDataSource<UserData>;
   selection: SelectionModel<UserData>;
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   @ViewChild(MatSort, { static: true }) sort: MatSort;
-  constructor(private dialog:MatDialog,private readonly dataService: DataService) {}
+  constructor(private dialog:MatDialog) {}
 
   ngOnInit() {
     this.rows = [
@@ -63,7 +57,7 @@ export class ProjectListComponent implements OnInit, AfterViewInit {
         color:'blue',
         progress: '56%'
       }];
-    this.dataSource = new MatTableDataSource(this.dataService.create100Users());
+    this.dataSource = new MatTableDataSource();
     this.selection = new SelectionModel<UserData>(true, []);
     console.log("dataresult "+this.rows);
   }

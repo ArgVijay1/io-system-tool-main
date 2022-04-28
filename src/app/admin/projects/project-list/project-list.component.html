@@ -1,36 +1,35 @@
 <div class="right">
-  <button (click)="openDialog()" mat-raised-button color="primary">Create Project</button>
-</div>
-<div fxLayout='row' fxLayoutWrap class="cards">
-  <div fxFlex="20" class="example-card">
-    <mat-card *ngFor="let row of rows">
-      <mat-card-header>
-        <mat-card-title>Project :{{row.name}}</mat-card-title>
-        <h4></h4>
-        <mat-card-subtitle>
-          <p>Subtitle</p>
-        </mat-card-subtitle>
-      </mat-card-header>
-      <!--h2>Header</h2-->
-      <mat-card-content>
-        <h3></h3>
-        <div class="column">
-          <p>ID :{{row.id}}</p>
-        </div>
-        <div class="column">
-          <p>Color :{{row.color}}</p>
-        </div>
-      <div class="column">
-        <p>Prgoress :{{row.progress}}</p>
-      </div>
-        </mat-card-content>
-      <mat-card-actions>
-        <button mat-button (click)="openEditDialog(rows)">
-          <mat-icon>edit</mat-icon>
-        </button>
-        <button mat-button (click)="openDeleteDialog(rows)" ><mat-icon>delete</mat-icon></button>
-      </mat-card-actions>
-    </mat-card>
+    <button (click)="openDialog()" mat-raised-button color="primary">Create Project</button>
   </div>
-</div>
-
+  <div fxLayout='row' fxLayoutWrap class="cards">
+    <div fxFlex="20" class="example-card">
+      <mat-card *ngFor="let row of rows">
+        <mat-card-header>
+          <mat-card-title>Project :{{row.name}}</mat-card-title>
+          <h4></h4>
+          <mat-card-subtitle>
+            <p>Subtitle</p>
+          </mat-card-subtitle>
+        </mat-card-header>
+        <!--h2>Header</h2-->
+        <mat-card-content>
+          <h3></h3>
+          <div class="column">
+            <p>ID :{{row.id}}</p>
+          </div>
+          <div class="column">
+            <p>Color :{{row.color}}</p>
+          </div>
+        <div class="column">
+          <p>Prgoress :{{row.progress}}</p>
+        </div>
+          </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="openEditDialog(rows)">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-button (click)="openDeleteDialog(rows)" ><mat-icon>delete</mat-icon></button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>

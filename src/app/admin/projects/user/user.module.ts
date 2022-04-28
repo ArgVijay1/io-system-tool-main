@@ -12,6 +12,7 @@ import { DeleteUserComponent } from './delete-user/delete-user.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatInputModule } from '@angular/material/input';
 
 
 @NgModule({
@@ -23,6 +24,8 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
     MatDialogModule,
     MatFormFieldModule,
+
+    MatInputModule,
     UserRoutingModule,
     MatTableModule,
     MatButtonModule,
